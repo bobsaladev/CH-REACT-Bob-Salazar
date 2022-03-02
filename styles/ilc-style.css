@@ -1,0 +1,22 @@
+.ilc-wrapper {
+  background: white;
+  display: block;
+  padding: 80px;
+  text-align: center;
+}
+.ilc-wrapper .ilc-module {
+  border-radius: 13px;
+  background-color: var(--color-primary);
+  max-width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.4s;
+}
+.ilc-wrapper .ilc-module:hover {
+  box-shadow: 0px 0px 25px 0px rgba(124, 115, 115, 0.5);
+}

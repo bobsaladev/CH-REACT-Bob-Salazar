@@ -1,0 +1,6 @@
+.footer-wrapper {
+  background: var(--color-secondary);
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
