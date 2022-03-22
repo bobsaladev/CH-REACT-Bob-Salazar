@@ -11,12 +11,60 @@
   height: 300px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.ilc-wrapper .ilc-module .ilc-heading {
+  padding-bottom: 15px;
+}
+.ilc-wrapper .contador-wrapper {
+  width: 100%;
+  background: #fff;
+  padding-bottom: 15px;
+}
+.ilc-wrapper .contador-wrapper .element-wrapper {
+  display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.ilc-wrapper .contador-wrapper .element-wrapper .element-contador {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-around;
+  border: 1px solid;
+  border-color: var(--color-primary);
+  border-radius: 7px;
+  margin: 10px 0;
+}
+.ilc-wrapper .contador-wrapper .element-wrapper .contador-number {
+  padding: 10px;
+  color: #000;
+}
+.ilc-wrapper .contador-wrapper .element-wrapper button {
+  background: transparent;
+  border: none;
+  width: 10%;
+  height: 100%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ilc-wrapper .contador-wrapper .element-wrapper .addto-cart {
+  font-size: 16px;
+  width: 90%;
+  padding: 10px;
+  background: #c5c5c5;
+  border-radius: 7px;
   transition: all 0.4s;
 }
-.ilc-wrapper .ilc-module:hover {
-  box-shadow: 0px 0px 25px 0px rgba(124, 115, 115, 0.5);
+.ilc-wrapper .contador-wrapper .element-wrapper .addto-cart:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
